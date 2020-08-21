@@ -4,7 +4,7 @@ const DefaultLayout = ({ children }) => {
   return (
     <>
       <header>
-        <h1>My Playground</h1>
+        <h1>Code Playground</h1>
         <nav>
           <ul>
             <li>
@@ -12,6 +12,9 @@ const DefaultLayout = ({ children }) => {
             </li>
             <li>
               <Link to={routes.three()}>Three</Link>
+            </li>
+            <li>
+              <Link to={routes.threeFiber()}>Three Fiber</Link>
             </li>
           </ul>
         </nav>
